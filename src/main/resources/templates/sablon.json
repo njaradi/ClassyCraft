@@ -1,0 +1,72 @@
+{
+  "@type": "Diagram",
+  "name": "New Diagram",
+  "children": [
+    {
+      "@type": "ClassyClass",
+      "name": "s",
+      "visible": null,
+      "location": {
+        "x": 252.0,
+        "y": 130.0
+      },
+      "height": 53,
+      "width": 85,
+      "methods": [],
+      "attributes": [],
+      "abstract": false
+    },
+    {
+      "@type": "ClassyInterface",
+      "name": "a",
+      "visible": null,
+      "location": {
+        "x": 482.0,
+        "y": 194.0
+      },
+      "height": 53,
+      "width": 99,
+      "methods": []
+    },
+    {
+      "@type": "ClassyEnum",
+      "name": "h",
+      "visible": null,
+      "location": {
+        "x": 94.0,
+        "y": 397.0
+      },
+      "height": 53,
+      "width": 85,
+      "enumerators": []
+    },
+    {
+      "@type": "Dependency",
+      "name": null,
+      "from": "s",
+      "to": "h",
+      "a": {
+        "x": 278.0,
+        "y": 183.0
+      },
+      "b": {
+        "x": 151.0,
+        "y": 397.0
+      }
+    },
+    {
+      "@type": "Generalization",
+      "name": null,
+      "from": "s",
+      "to": "a",
+      "a": {
+        "x": 337.0,
+        "y": 167.0
+      },
+      "b": {
+        "x": 482.0,
+        "y": 206.0
+      }
+    }
+  ]
+}
